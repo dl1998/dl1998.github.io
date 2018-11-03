@@ -1,0 +1,135 @@
+.w-33 {
+    width: 33%;
+}
+
+.w-67 {
+    width: 67%;
+}
+
+.page-height {
+    height: 91vh;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+#navbarNavDropdown {
+    margin-left: 30px;
+}
+
+.navbar-nav li {
+    margin-left: 20px;
+}
+
+#authorization {
+    float: right;
+}
+
+#authorization a {
+    text-decoration: none;
+}
+
+.main-content {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#page-overview {
+    background-color: rgba(162, 167, 172, 0.61);
+}
+
+.page-title {
+    background-color: rgba(49, 14, 3, 0.77);
+    height: 100%;
+    color: white;
+}
+
+.page-content {
+    height: 100%;
+    color: black;
+}
+
+#sign-up-link {
+    font-size: 1em;
+}
+
+.footer {
+    background-color: #1b1e21;
+    color: #cdcdcd;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid black;
+}
+
+#brand {
+    letter-spacing: 0.1em;
+}
+
+.copyright {
+    float: right;
+}
+
+@media print {
+    .page-height{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 991px) {
+    .page-height {
+        height: 92vh;
+    }
+
+    .page-title h1 {
+        font-size: 2.9rem;
+        font-weight: normal;
+    }
+}
+
+@media (min-width: 992px) {
+    .header-height {
+        height: 9vh;
+    }
+
+    .page-title h1 {
+        font-size: 5rem;
+        font-weight: normal;
+    }
+}
+
+@media (min-width: 576px) {
+    .page-title {
+        border-radius: 0 33% 33% 0;
+        background-color: rgba(49, 14, 3, 0.77);
+        height: 100%;
+        color: white;
+    }
+}
+
+@media (max-width: 575px) {
+    .page-height {
+        height: auto;
+    }
+
+    .page-title {
+        height: 20vh;
+        border-radius: 0  0 33% 33%;
+    }
+
+    .page-title h1 {
+        font-size: 3.5rem;
+        font-weight: normal;
+        letter-spacing: 0.5rem;
+    }
+
+    .page-content {
+        height: auto;
+    }
+}
