@@ -76,12 +76,6 @@
     float: right;
 }
 
-@media print {
-    .page-height{
-        height: 100vh;
-    }
-}
-
 @media (max-width: 991px) {
     .page-height {
         height: 92vh;
@@ -115,7 +109,7 @@
 
 @media (max-width: 575px) {
     .page-height {
-        height: auto;
+        height: 100vh;
     }
 
     .page-title {
@@ -130,6 +124,6 @@
     }
 
     .page-content {
-        height: auto;
+        height: 100vh;
     }
 }
