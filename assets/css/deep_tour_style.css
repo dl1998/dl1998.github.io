@@ -1,0 +1,22 @@
+.filter {
+    background-color: white;
+    height: 50vh;
+}
+
+#accordion a{
+    text-decoration: none;
+}
+
+.card-header {
+    height: auto;
+}
+
+.container-fluid {
+    background-color: black;
+    height: 50vh;
+}
+
+.content {
+    background-color: #0c5460;
+    height: 50vh;
+}
