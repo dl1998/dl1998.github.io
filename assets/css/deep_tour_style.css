@@ -1,22 +1,90 @@
 .filter {
-    background-color: white;
-    height: 50vh;
+}
+
+.custom-control label {
+    font-size: 100%;
+    color: #4a8591;
+    font-weight: bolder;
+}
+
+.custom-control-label{
+    cursor: default;
+}
+
+.custom-control-label:hover{
+    cursor: pointer;
+}
+
+.card-header {
+    background-color: #4f5b66;
+    color: white;
+    font: bold 100% 'gothic regular', arial;
+    letter-spacing: 0.1em;
 }
 
 #accordion a{
     text-decoration: none;
 }
 
-.card-header {
-    height: auto;
+.my-button {
+    background-color: #65737e;
+    color: white;
 }
 
-.container-fluid {
-    background-color: black;
-    height: 50vh;
+.my-button:hover{
+    background-color: #a7adba;
+    color: white;
+}
+
+.container-fluid a{
+
 }
 
 .content {
-    background-color: #0c5460;
-    height: 50vh;
+}
+
+.content .card {
+    border: 1px solid #aca4a7;
+    border-radius: 10px;
+}
+
+.content img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 275px;
+}
+
+.content p {
+    font-size: 1em;
+}
+
+.module {
+    margin: 0 0 1em 0;
+    overflow: hidden;
+}
+
+.module p {
+    margin: 0;
+}
+
+.my-fade {
+    position: relative;
+    height: 4.3em;
+}
+
+.my-fade:after {
+    content: "";
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 1.3em;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .content img {
+        height: 175px;
+    }
 }

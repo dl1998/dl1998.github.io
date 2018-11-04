@@ -67,15 +67,15 @@
         </div>
     </div>
 </nav>
-<div class="container-fluid p-2">
-    <div class="row">
-        <div class="filter col-md-3 col-lg-2">
-            <h3>Filter</h3>
+<div class="container-fluid p-0">
+    <div class="row px-0 mx-0">
+        <div class="filter col-md-3 col-lg-2 p-2">
             <div id="accordion">
-                <div class="card">
+                <div class="card my-1">
                     <div class="card-header my-0 py-0" id="headingOne">
                         <h5 class="mb-0">
-                            <a class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                            <a class="btn w-100 text-left" data-toggle="collapse" data-target="#collapseOne"
+                               aria-expanded="true"
                                aria-controls="collapseOne">
                                 City
                             </a>
@@ -86,55 +86,84 @@
                         <div class="card-body">
                             <div class="custom-control custom-checkbox px-0">
                                 <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                <label class="custom-control-label ml-4" for="customCheck1">Kyiv</label>
+                                <label class="custom-control-label noselect ml-4" for="customCheck1">Kyiv</label>
                             </div>
                             <div class="custom-control custom-checkbox px-0">
                                 <input type="checkbox" class="custom-control-input" id="customCheck2">
-                                <label class="custom-control-label ml-4" for="customCheck2">Lviv</label>
+                                <label class="custom-control-label noselect ml-4" for="customCheck2">Lviv</label>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card my-1">
                     <div class="card-header my-0 py-0" id="headingTwo">
                         <h5 class="mb-0">
-                            <a class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                               aria-expanded="false" aria-controls="collapseTwo">
+                            <a class="btn w-100 text-left" data-toggle="collapse" data-target="#collapseTwo"
+                               aria-expanded="true" aria-controls="collapseTwo">
                                 Type
                             </a>
                         </h5>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
+                    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo">
                         <div class="card-body">
                             <div class="custom-control custom-checkbox px-0">
                                 <input type="checkbox" class="custom-control-input" id="customCheck3">
-                                <label class="custom-control-label ml-4" for="customCheck3">Museum</label>
+                                <label class="custom-control-label noselect ml-4" for="customCheck3">Museum</label>
                             </div>
                             <div class="custom-control custom-checkbox px-0">
                                 <input type="checkbox" class="custom-control-input" id="customCheck4">
-                                <label class="custom-control-label ml-4" for="customCheck4">Theatre</label>
+                                <label class="custom-control-label noselect ml-4" for="customCheck4">Theatre</label>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="content col-md-7 col-lg-8">
-            <div class="row">
-                <div class="card col-md-4 m-2 p-0" style="width: 18rem;">
-                    <img class="card-img-top" src="https://life.bodo.ua/upload/files/cm-event/1/351/image/golden_gate_front-r1r1h500w711zc3q100.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Golden Gate</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="content col-md-9 col-lg-8 w-100 my-2">
+            <div class="row mr-md-1">
+                <div class="col-lg-4 col-md-6 my-1 pl-md-2 pr-md-0">
+                    <div class="card p-0">
+                        <img class="card-img-top"
+                             src="https://life.bodo.ua/upload/files/cm-event/1/351/image/golden_gate_front-r1r1h500w711zc3q100.jpg"
+                             alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Golden Gate</h5>
+                            <div class="module my-fade">
+                                <p class="card-text">The Golden Gates of Kyiv was the main gate in the 11th century fortifications of Kyiv, the capital of Kievan Rus'.</p>
+                            </div>
+                            <a href="#" class="btn my-button">More</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-md-4 m-2 p-0" style="width: 18rem;">
-                    <img class="card-img-top" src="https://life.bodo.ua/upload/files/cm-event/1/351/image/golden_gate_front-r1r1h500w711zc3q100.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Lviv Castle Hill</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="col-lg-4 col-md-6 my-1 pl-md-2 pr-md-0">
+                    <div class="card p-0">
+                        <img class="card-img-top"
+                             src="http://lviv.travel/php_uploads/images/articleimages/ArticleImages_1497_DSC_0640.jpg"
+                             alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">The Opera House</h5>
+                            <div class="module my-fade">
+                                <p class="card-text">The Lviv Opera House (28 Svobody Square) is an architectural gem of
+                                    Lviv, built in the Neo-Renaissance style in 1901, and one of the most beautiful
+                                    theatres in Europe...</p>
+                            </div>
+                            <a href="#" class="btn my-button">More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-1 pl-md-2 pr-md-0">
+                    <div class="card p-0">
+                        <img class="card-img-top"
+                             src="https://life.bodo.ua/upload/files/cm-event/1/351/image/golden_gate_front-r1r1h500w711zc3q100.jpg"
+                             alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Lviv Castle Hill</h5>
+                            <div class="module my-fade">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                            <a href="#" class="btn my-button">More</a>
+                        </div>
                     </div>
                 </div>
             </div>
