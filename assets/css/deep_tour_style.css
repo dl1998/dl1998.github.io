@@ -1,6 +1,17 @@
 .filter {
 }
 
+.card-header .fa {
+    transition: .3s transform ease-in-out;
+}
+.card-header .collapsed .fa {
+    transform: rotate(-90deg);
+}
+
+.expandable-header {
+    vertical-align: middle;
+}
+
 .custom-control label {
     font-size: 100%;
     color: #4a8591;
@@ -13,6 +24,11 @@
 
 .custom-control-label:hover{
     cursor: pointer;
+}
+
+.card-header a {
+    color: white;
+    font-size: 0.8em;
 }
 
 .card-header {
