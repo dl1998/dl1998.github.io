@@ -1,0 +1,39 @@
+.page-header {
+    height: 200px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-repeating-radial-gradient(#2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: radial-gradient(#16647a, #343a40);
+}
+
+/*#3d5568, #000000*/
+
+.page-header h1 {
+    vertical-align: middle;
+    color: white;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    font-size: 400%;
+    font-family: Garamond, "Palatino Linotype", Verdana, Arial, serif;
+}
+
+#navigation-block a {
+    color: rgba(255,255,255,.75);
+}
+
+#navigation-block .show{
+    background-color: #65737e;
+}
+
+#navigation-block .active {
+    background-color: #65737e;
+    color: white;
+}
+
+#navigation-block a:hover{
+
+}
+
+#content {
+    background-color: #4a8591;
+    height: 50vh;
+}

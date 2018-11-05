@@ -18,6 +18,11 @@
     font-size: 2em;
 }
 
+.navbar .active {
+    background-color: #65737e;
+    border-radius: 10px;
+}
+
 #navbarNavDropdown {
     margin-left: 30px;
 }
