@@ -119,12 +119,3 @@
         width: 100%;
     }
 }
-
-@media (min-height: 673px) and (min-width: 992px) {
-    .footer {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-}
