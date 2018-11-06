@@ -16,24 +16,51 @@
     font-family: Garamond, "Palatino Linotype", Verdana, Arial, serif;
 }
 
-#navigation-block a {
+#pills-tab a {
     color: rgba(255,255,255,.75);
 }
 
-#navigation-block .show{
+#pills-tab .show{
     background-color: #65737e;
 }
 
-#navigation-block .active {
+#pills-tab .active {
     background-color: #65737e;
     color: white;
 }
 
-#navigation-block a:hover{
+#pills-tab a:hover{
 
 }
 
 #content {
-    background-color: #4a8591;
-    height: 50vh;
+    background-color: whitesmoke;
+}
+
+#content img {
+    width: 500px;
+    height: 282px;
+    border-radius: 10px;
+}
+
+#content #short-overview {
+    text-align: center;
+    font-size: 1.3em;
+    font-family: Brush Script Std, cursive;
+    font-style: italic;
+}
+
+#content p {
+    font-family: URW Gothic L, sans-serif;
+    font-size: 1.1em;
+    text-indent: 25px;
+    margin-bottom: 2px;
+}
+
+@media (max-width: 767px) {
+    #content img {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }

@@ -87,6 +87,15 @@
                                   supported by Chrome and Opera */
 }
 
+.clear {
+    clear: both;
+    height: 63px;
+}
+
+.margin-8 {
+    margin: 8%;
+}
+
 @media (max-width: 991px) {
     .page-height {
         height: 92vh;
