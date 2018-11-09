@@ -52,6 +52,10 @@ body {
     font-size: 1.3em;
 }
 
+.content {
+    flex: 1 0 auto;
+}
+
 #authentication {
     width: 50%;
 }
@@ -85,10 +89,6 @@ body {
 
 #brand {
     letter-spacing: 0.1em;
-}
-
-.copyright {
-    float: right;
 }
 
 .noselect {

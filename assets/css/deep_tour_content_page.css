@@ -37,7 +37,12 @@
     background-color: whitesmoke;
 }
 
-#content img {
+.content {
+    background-color: whitesmoke;
+}
+
+
+.container img {
     width: 500px;
     height: 282px;
     border-radius: 10px;
@@ -46,15 +51,32 @@
 #content #short-overview {
     text-align: center;
     font-size: 1.3em;
-    font-family: Brush Script Std, Papyrus, cursive, fantasy;
+    font-family: Brush Script Std, cursive, Papyrus, fantasy;
     font-style: italic;
 }
 
 #content p {
     font-family: URW Gothic L, sans-serif;
     font-size: 1.1em;
-    text-indent: 25px;
     margin-bottom: 2px;
+}
+
+#pills-overview p {
+    text-indent: 25px;
+}
+
+#carouselMedia {
+    width: 900px;
+    height: 506px;
+    display: flex;
+}
+
+.carousel-item img {
+    height: 100%;
+}
+
+#work-schedule {
+    letter-spacing: 0.1em;
 }
 
 @media (max-width: 767px) {
@@ -62,5 +84,16 @@
         width: 100%;
         margin-left: 0;
         margin-right: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    #carouselMedia {
+        width: auto;
+        height: auto;
+    }
+
+    .carousel-item {
+        height: 100%;
     }
 }
