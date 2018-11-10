@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Log In</title>
+    <title>Lectures</title>
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,6 +16,9 @@
 
     <!-- Main style -->
     <link href="assets/css/main_style.css" rel="stylesheet">
+
+    <!-- Lectures style -->
+    <link href="assets/css/lectures_content_page.css" rel="stylesheet">
 
 </head>
 <body>
@@ -33,7 +36,7 @@
                     <a class="nav-link" href="deep_tour.html">DeepTour<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="lectures.html">Lectures<span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="lectures.html">Lectures<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">More<span class="sr-only">(current)</span></a>
@@ -42,44 +45,24 @@
                     <a class="nav-link" href="#">FAQ<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
+            <div class="w-100 my-3 my-lg-0">
+                <div class="float-none float-lg-right row">
+                    <button class="btn btn-outline-info col-12 col-lg-auto my-2 my-lg-0 mx-lg-1" type="submit"
+                            id="btn_log_in"
+                            onclick="location.href='log_in.html';">
+                        Log In
+                    </button>
+                    <button class="btn btn-outline-info col-12 col-lg-auto my-2 my-lg-0 mx-lg-1" type="submit"
+                            id="btn_sign_up"
+                            onclick="location.href='sign_up.html'">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 </nav>
-<div class="container-fluid w-75 m-auto">
-    <div id="authentication" class="justify-content-center m-auto">
-        <div class="rounded border border-light bg-light p-2">
-            <h4 class="mb-4 text-center">Authentication</h4>
-            <form class="d-inline-block w-100">
-                <div class="form-group row">
-                    <label for="inputEmail3" class="col-sm-3 col-form-label text-center text-sm-left">Email</label>
-                    <div class="col-sm-9">
-                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="inputPassword3"
-                           class="col-sm-3 col-form-label text-center text-sm-left">Password</label>
-                    <div class="col-sm-9">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-                    </div>
-                </div>
-                <div class="custom-control custom-checkbox px-0">
-                    <div class="row">
-                                <span class="mb-3 col-md-6 col-sm-12 text-md-left text-center">
-                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                    <label class="custom-control-label ml-4" for="customCheck1">Remember me</label>
-                                </span>
-                        <span class="col-md-6 col-sm-12 text-md-right text-center">
-                                    <a id="authentication-link" href="sign_up.html" class="mr-3">Sign Up</a>
-                                    <button type="submit" class="btn btn-primary">Log in</button>
-                                </span>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-<footer class="footer">
+<footer class="footer mt-auto">
     <div class="container">
         <span id="brand">DeepEdge</span>
         <span class="float-right">

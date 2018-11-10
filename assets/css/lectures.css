@@ -1,0 +1,75 @@
+.d-table {
+    background-color: #1d2124;
+}
+
+.level-header {
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+#begginer-header {
+    background-color: #dfdedf;
+    color: #949394;
+}
+
+#begginer-content .card:hover {
+    background-color: #dfdedf;
+    color: #949394;
+}
+
+#intermediate-header {
+    background-color: #b9b9b9;
+    color: #dfdedf;
+}
+
+#intermediate-content .card:hover {
+    background-color: #b9b9b9;
+    color: #dfdedf;
+}
+
+#advanced-header {
+    background-color: #949394;
+    color: #b9b9b9;
+}
+
+#advanced-content .card:hover {
+    background-color: #949394;
+    color: #b9b9b9;
+}
+
+.card {
+    border: 2px solid #eadbe0;
+    cursor: pointer;
+}
+
+.card img {
+    width: 220px;
+    height: 220px;
+}
+
+.card:hover {
+    background-color: #b9b9b9;
+    color: #dfdedf;
+}
+
+@media (max-width: 767px) {
+    .level-header {
+        height: 60px;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1299px) {
+    .card {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1300px) {
+    .card {
+        width: 75%;
+    }
+}

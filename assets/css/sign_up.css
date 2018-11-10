@@ -1,0 +1,9 @@
+.container-fluid {
+    width: 50%;
+}
+
+@media (max-width: 767px) {
+    .container-fluid {
+        width: 75%;
+    }
+}

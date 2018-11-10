@@ -17,9 +17,12 @@
     <!-- Main style -->
     <link href="assets/css/main_style.css" rel="stylesheet">
 
+    <!-- Sign Up Style -->
+    <link href="assets/css/sign_up.css" rel="stylesheet">
+
 </head>
-<body class="full-height">
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="index.html">DE</a>
 
@@ -27,13 +30,13 @@
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse mx-2" id="navbarNavDropdown">
+            <ul class="navbar-nav text-center text-lg-left">
                 <li class="nav-item">
                     <a class="nav-link" href="deep_tour.html">DeepTour<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Lectures<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="lectures.html">Lectures<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">More<span class="sr-only">(current)</span></a>
@@ -45,33 +48,55 @@
         </div>
     </div>
 </nav>
-<div class="container-fluid h-100">
-    <div class="container main-content h-100">
-        <div class="d-table h-100 justify-content-center mx-auto">
-            <div class="d-table-cell align-middle">
-                <form class="d-inline-block">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                               placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.
-                        </small>
+<div class="container-fluid m-auto">
+    <div class="justify-content-center m-auto">
+        <div class="rounded border border-light bg-light p-2">
+            <h4 class="mb-4 text-center">Registration</h4>
+            <form class="d-inline-block w-100">
+                <div class="form-group row">
+                    <label for="inputUsername" class="col-sm-3 col-form-label text-center text-sm-left">Username</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="inputUsername" placeholder="Username">
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group row">
+                    <label for="inputEmail" class="col-sm-3 col-form-label text-center text-sm-left">Email</label>
+                    <div class="col-sm-9">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                     </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <div class="form-group row">
+                    <label for="inputPassword"
+                           class="col-sm-3 col-form-label text-center text-sm-left">Password</label>
+                    <div class="col-sm-9">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputPasswordAgain"
+                           class="col-sm-3 col-form-label text-center text-sm-left">Retype Password</label>
+                    <div class="col-sm-9">
+                        <input type="password" class="form-control" id="inputPasswordAgain"
+                               placeholder="Retype Password">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputName"
+                           class="col-sm-3 col-form-label text-center text-sm-left">Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="inputName" placeholder="Name (Unnecessary)">
+                    </div>
+                </div>
+                <div class="custom-control custom-checkbox text-center px-0">
+                    <a id="authentication-link" href="log_in.html" class="mr-3">Log In</a>
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+
+                </div>
+            </form>
         </div>
     </div>
 </div>
-<footer class="footer mt-auto">
+<footer class="footer">
     <div class="container">
         <span id="brand">DeepEdge</span>
         <span class="float-right">
