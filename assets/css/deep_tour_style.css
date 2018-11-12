@@ -59,6 +59,7 @@
 
 .content .card:hover{
     border: 3px solid #aca4a7;
+    height: 476px;
     border-radius: 10px;
     box-shadow: 1px 1px 20px 10px #aca4a7;
 }
@@ -109,6 +110,10 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .content img {
         height: 175px;
+    }
+
+    .content .card:hover {
+        height: 376px;
     }
 }
 

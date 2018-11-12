@@ -1,0 +1,141 @@
+.scrollbar {
+    float: left;
+    height: 805px;
+    background-color: #2ab3b4;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+
+.force-overflow {
+    min-height: 450px;
+}
+
+.scrollbar-morpheus-den::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+}
+
+.scrollbar-morpheus-den::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-morpheus-den::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#30cfd0), to(#330867));
+    background-image: -webkit-linear-gradient(bottom, #30cfd0 0%, #330867 100%);
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.card {
+    border-radius: 0;
+}
+
+img {
+    height: 180px;
+}
+
+#category-navigation li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#category-navigation a:not(.active) .card:hover {
+    padding: 5px;
+    background-color: #330867;
+}
+
+#category-navigation a:not(.active) .card:hover img {
+    height: 170px;
+}
+
+#category-navigation .card {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#category-navigation .active .card {
+    border: 2px solid #330867;
+    margin: 5px 0;
+}
+
+#category-navigation .active .card img {
+    padding: 5px;
+}
+
+#sub-category .card {
+    border-radius: 10px;
+    font: 100% "Helvetica Neue", sans-serif;
+}
+
+#sub-category .card:hover {
+    border-color: black;
+    cursor: pointer;
+}
+
+#sub-category .card-header {
+    height: 80px;
+    text-align: center;
+    background-color: #66aebc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#sub-category h5 {
+    margin: 0;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+#sub-category .card-text {
+    font-size: 1.2em;
+}
+
+#sub-category .card-body {
+    background-color: #f2eaea;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (max-width: 991px) {
+    .scrollbar {
+        overflow-y: hidden;
+        overflow-x: scroll;
+        height: auto;
+    }
+
+    .force-overflow {
+        min-height: auto;
+    }
+
+    #category-navigation .card {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    #category-navigation .active .card {
+        margin: 0 5px;
+    }
+
+    img {
+        width: 250px;
+    }
+
+    #category-navigation .nav {
+        flex-wrap: nowrap;
+    }
+
+    #category-navigation li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #sub-category .card {
+        margin: 5px 0;
+    }
+}

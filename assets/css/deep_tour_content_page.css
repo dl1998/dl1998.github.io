@@ -33,7 +33,7 @@
 
 }
 
-#content {
+#category-navigation {
     background-color: whitesmoke;
 }
 
@@ -48,14 +48,14 @@
     border-radius: 10px;
 }
 
-#content #short-overview {
+#category-navigation #short-overview {
     text-align: center;
     font-size: 1.3em;
     font-family: Brush Script Std, cursive, Papyrus, fantasy;
     font-style: italic;
 }
 
-#content p {
+#category-navigation p {
     font-family: URW Gothic L, sans-serif;
     font-size: 1.1em;
     margin-bottom: 2px;
@@ -80,7 +80,7 @@
 }
 
 @media (max-width: 767px) {
-    #content img {
+    #category-navigation img {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
