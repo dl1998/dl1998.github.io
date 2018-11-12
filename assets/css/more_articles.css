@@ -1,0 +1,51 @@
+.card {
+    border-radius: 0;
+}
+
+.card-header, .card-footer {
+    background-color: #e4e0e3;
+    border-radius: 0!important;
+}
+
+.card-header:hover {
+    cursor: pointer;
+}
+
+.card-header:hover .title {
+    color: #1ea3a9;
+}
+
+.title {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.card-header:hover .sub-title {
+    color: #969fa7!important;
+}
+
+.sub-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.embed-responsive {
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    text-indent: 15px;
+    font-size: 1.1em;
+}
+
+@media (max-width: 575px) {
+    .embed-responsive {
+        width: 100%;
+    }
+
+    .card-text {
+        text-align: justify;
+    }
+}
