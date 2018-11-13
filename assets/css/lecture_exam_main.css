@@ -55,6 +55,7 @@
 
 #answer-block div{
     width: fit-content;
+    width: -moz-fit-content;
 }
 
 label {

@@ -27,6 +27,15 @@
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
+.my-fade {
+    height: 4.6em;
+}
+
+.my-fade:after {
+    height: 1.3em;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #f2eaea 50%);
+}
+
 .card {
     border-radius: 0;
 }
@@ -74,7 +83,6 @@ img {
 }
 
 #sub-category .card-header {
-    height: 80px;
     text-align: center;
     background-color: #66aebc;
     border-top-left-radius: 10px;
@@ -99,7 +107,9 @@ img {
 }
 
 @media (min-width: 992px) {
-
+    #sub-category .card-header {
+        height: 80px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -111,6 +121,11 @@ img {
 
     .force-overflow {
         min-height: auto;
+    }
+
+    #category-navigation a:not(.active) .card:hover img {
+        height: 170px;
+        width: 240px;
     }
 
     #category-navigation .card {
