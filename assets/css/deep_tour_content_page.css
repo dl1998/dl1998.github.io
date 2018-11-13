@@ -1,7 +1,7 @@
 .page-header {
     height: 200px;
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-repeating-radial-gradient(#2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #bdc3c7; /* fallback for old browsers */
+    background: -webkit-repeating-radial-gradient(#2c3e50, #bdc3c7); /* Chrome 10-25, Safari 5.1-6 */
     background: radial-gradient(#16647a, #343a40);
 }
 
@@ -17,10 +17,10 @@
 }
 
 #pills-tab a {
-    color: rgba(255,255,255,.75);
+    color: rgba(255, 255, 255, .75);
 }
 
-#pills-tab .show{
+#pills-tab .show {
     background-color: #65737e;
 }
 
@@ -29,7 +29,7 @@
     color: white;
 }
 
-#pills-tab a:hover{
+#pills-tab a:hover {
 
 }
 
@@ -40,7 +40,6 @@
 .content {
     background-color: whitesmoke;
 }
-
 
 .container img {
     width: 500px;

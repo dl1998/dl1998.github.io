@@ -1,0 +1,5 @@
+.container-fluid .nav .nav-link {
+    border-radius: 30px 30px 30px 30px;
+    font-size: 1.3em;
+    margin: 10px 0;
+}

@@ -4,6 +4,7 @@
 .card-header .fa {
     transition: .3s transform ease-in-out;
 }
+
 .card-header .collapsed .fa {
     transform: rotate(-90deg);
 }
@@ -18,11 +19,11 @@
     font-weight: bolder;
 }
 
-.custom-control-label{
+.custom-control-label {
     cursor: default;
 }
 
-.custom-control-label:hover{
+.custom-control-label:hover {
     cursor: pointer;
 }
 
@@ -38,7 +39,7 @@
     letter-spacing: 0.1em;
 }
 
-#accordion a{
+#accordion a {
     text-decoration: none;
 }
 
@@ -47,7 +48,7 @@
     color: white;
 }
 
-.my-button:hover{
+.my-button:hover {
     background-color: #a7adba;
     color: white;
 }
@@ -57,13 +58,12 @@
     border-radius: 10px;
 }
 
-.content .card:hover{
+.content .card:hover {
     border: 3px solid #aca4a7;
     height: 476px;
     border-radius: 10px;
     box-shadow: 1px 1px 20px 10px #aca4a7;
 }
-
 
 .card:hover img {
     padding: 0;

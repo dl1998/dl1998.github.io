@@ -49,11 +49,11 @@
     font-size: 2.5em;
 }
 
-#question-block .embed-responsive-16by9{
+#question-block .embed-responsive-16by9 {
     width: 50%;
 }
 
-#answer-block div{
+#answer-block div {
     width: fit-content;
     width: -moz-fit-content;
 }
@@ -71,7 +71,7 @@ label {
 }
 
 @media (max-width: 991px) {
-    #question-block .embed-responsive-16by9{
+    #question-block .embed-responsive-16by9 {
         width: 75%;
     }
 }

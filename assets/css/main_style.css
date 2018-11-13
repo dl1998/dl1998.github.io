@@ -12,8 +12,9 @@
     -khtml-user-select: none; /* Konqueror HTML */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                     supported by Chrome and Opera */
 }
 
 .module {
@@ -38,7 +39,7 @@
 }
 
 .page-height {
-    height: 91vh;
+    height: 92vh;
 }
 
 .full-height {
@@ -138,10 +139,6 @@ body {
 }
 
 @media (min-width: 992px) {
-    .header-height {
-        height: 9vh;
-    }
-
     .page-title h1 {
         font-size: 5rem;
         font-weight: normal;
@@ -164,7 +161,7 @@ body {
 
     .page-title {
         height: 20vh;
-        border-radius: 0  0 33% 33%;
+        border-radius: 0 0 33% 33%;
     }
 
     .page-title h1 {

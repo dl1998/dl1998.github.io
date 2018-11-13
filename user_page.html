@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css"
           crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./assets/js/lib/babel.js"></script>
     <script crossorigin src="assets/js/lib/react/react.production.min.js"></script>
     <script crossorigin src="assets/js/lib/react/react-dom.production.min.js"></script>
@@ -16,7 +17,8 @@
 
     <!-- Main style -->
     <link href="assets/css/main_style.css" rel="stylesheet">
-
+    <!-- User Page style -->
+    <link href="assets/css/user_page.css" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -36,7 +38,7 @@
                     <a class="nav-link" href="lectures.html">Lectures<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="more.html">More<span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="more.html">More<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">FAQ<span class="sr-only">(current)</span></a>
@@ -59,44 +61,22 @@
         </div>
     </div>
 </nav>
-<div class="content container-fluid p-0">
-    <div class="main-content p-0">
-        <div id="page-overview" class="page-height mx-0">
-            <div class="row h-100 mx-0">
-                <div class="col-sm-4 page-title px-0">
-                    <div class="d-table h-100 w-100">
-                        <h1 class="d-table-cell text-center align-middle">
-                            Overview
-                        </h1>
-                    </div>
-                </div>
-                <div class="col-sm-8 px-0 page-content">
-                    <div class="d-table h-100 w-100">
-                        <div class="w-auto d-table-cell align-middle p-5">
-                            <p>
-                                Thanks to this platform, you can immerse yourself in Ukrainian culture, history, get acquainted with the
-                                mentality of Ukrainians and their language.
-                            </p>
-                            <div class="embed-responsive embed-responsive-16by9 w-75 mx-auto">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-                                        allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div class="container-fluid pl-0 mt-3">
+    <div class="row p-0">
+        <div class="col-lg-2 col-3">
+            <div class="nav flex-column nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+                <a class="nav-link" id="v-pills-dictionary-tab" data-toggle="pill" href="#v-pills-dictionary" role="tab" aria-controls="v-pills-dictionary" aria-selected="true">Dictionary</a>
+                <a class="nav-link" id="v-pills-favorites-tab" data-toggle="pill" href="#v-pills-favorites" role="tab" aria-controls="v-pills-favorites" aria-selected="false">Favorites</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
             </div>
         </div>
-        <div class="container full-height">
-            <h2>
-                Meet DeepEdge
-            </h2>
-            <p>
-                Thanks to this platform, you can immerse yourself in Ukrainian culture, history, get acquainted with the
-                mentality of Ukrainians and their language.
-            </p>
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-                        allowfullscreen></iframe>
+        <div class="col-lg-10 col-9 mt-3">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-dictionary" role="tabpanel" aria-labelledby="v-pills-dictionary-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-favorites" role="tabpanel" aria-labelledby="v-pills-favorites-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
             </div>
         </div>
     </div>

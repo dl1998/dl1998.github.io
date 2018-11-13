@@ -4,7 +4,7 @@
 
 .card-header, .card-footer {
     background-color: #e4e0e3;
-    border-radius: 0!important;
+    border-radius: 0 !important;
 }
 
 .card-header:hover {
@@ -22,7 +22,7 @@
 }
 
 .card-header:hover .sub-title {
-    color: #969fa7!important;
+    color: #969fa7 !important;
 }
 
 .sub-title {
