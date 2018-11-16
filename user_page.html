@@ -21,62 +21,111 @@
     <link href="assets/css/user_page.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="index.html">DE</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse mx-2" id="navbarNavDropdown">
-            <ul class="navbar-nav text-center text-lg-left">
-                <li class="nav-item">
-                    <a class="nav-link" href="deep_tour.html">DeepTour<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="lectures.html">Lectures<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="more.html">More<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ<span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-            <div class="w-100 my-3 my-lg-0">
-                <div class="float-none float-lg-right row">
-                    <button class="btn btn-outline-info col-12 col-lg-auto my-2 my-lg-0 mx-lg-1" type="submit"
-                            id="btn_log_in"
-                            onclick="location.href='log_in.html';">
-                        Log In
-                    </button>
-                    <button class="btn btn-outline-info col-12 col-lg-auto my-2 my-lg-0 mx-lg-1" type="submit"
-                            id="btn_sign_up"
-                            onclick="location.href='sign_up.html'">
-                        Sign Up
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</nav>
+<nav id="navbar-block"></nav>
+<script src="assets/js/navbar.js"></script>
 <div class="container-fluid pl-0 mt-3">
     <div class="row p-0">
-        <div class="col-lg-2 col-3">
-            <div class="nav flex-column nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <a class="nav-link active" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-                <a class="nav-link" id="v-pills-dictionary-tab" data-toggle="pill" href="#v-pills-dictionary" role="tab" aria-controls="v-pills-dictionary" aria-selected="true">Dictionary</a>
-                <a class="nav-link" id="v-pills-favorites-tab" data-toggle="pill" href="#v-pills-favorites" role="tab" aria-controls="v-pills-favorites" aria-selected="false">Favorites</a>
-                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+        <div class="col-lg-2 col-sm-3 col-2 pr-0">
+            <div class="nav flex-column nav-pills text-center" id="v-pills-tab" role="tablist"
+                 aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                   role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                    <i class="fa fa-user-circle d-sm-none"></i>
+                    <span class="d-none d-sm-inline-block">Profile</span>
+                </a>
+                <a class="nav-link" id="v-pills-dictionary-tab" data-toggle="pill" href="#v-pills-dictionary" role="tab"
+                   aria-controls="v-pills-dictionary" aria-selected="true">
+                    <i class="fa fa-book d-sm-none"></i>
+                    <span class="d-none d-sm-inline-block">Dictionary</span>
+                </a>
+                <a class="nav-link" id="v-pills-favorites-tab" data-toggle="pill" href="#v-pills-favorites" role="tab"
+                   aria-controls="v-pills-favorites" aria-selected="false">
+                    <i class="fa fa-heart d-sm-none"></i>
+                    <span class="d-none d-sm-inline-block">Favorites</span>
+                </a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                   aria-controls="v-pills-settings" aria-selected="false">
+                    <i class="fa fa-cog d-sm-none"></i>
+                    <span class="d-none d-sm-inline-block">Settings</span>
+                </a>
             </div>
         </div>
-        <div class="col-lg-10 col-9 mt-3">
+        <div class="col-lg-10 col-sm-9 col-10 mt-3 pl-0 pl-sm-3">
             <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                <div class="tab-pane fade" id="v-pills-dictionary" role="tabpanel" aria-labelledby="v-pills-dictionary-tab">...</div>
-                <div class="tab-pane fade" id="v-pills-favorites" role="tabpanel" aria-labelledby="v-pills-favorites-tab">...</div>
-                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel"
+                     aria-labelledby="v-pills-profile-tab">
+                    <div class="container px-0">
+                        <div id="contact-row" class="row mx-auto">
+                            <div class="col-12 px-0">
+                                <div class="embed-responsive embed-responsive-1by1 mx-auto">
+                                    <img class="embed-responsive-item rounded-circle" src="assets/img/avatar.png">
+                                </div>
+                            </div>
+                            <div id="contact-data-block" class="col-12 px-0">
+                                <i class="fa fa-pencil mt-2 float-right"></i>
+                                <h2 class="mx-auto text-center">Contact data</h2>
+                                <div id="username-block" class="text-center">
+                                    username
+                                </div>
+                                <div class="row">
+                                <div class="col-lg-2"></div>
+                                <div class="col">
+                                <div class="row">
+                                    <div class="col-md-6 col-12 label">
+                                        Email<span class="colon">:</span>
+                                    </div>
+                                    <div id="email" class="col-md-6 col-12 data">
+                                        email@mail.com
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12 label">
+                                        Full Name<span class="colon">:</span>
+                                    </div>
+                                    <div id="name" class="col-md-6 col-12 data">
+                                        Name Surname
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12 label">
+                                        Country<span class="colon">:</span>
+                                    </div>
+                                    <div id="country" class="col-md-6 col-12 data">
+                                        USA
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12 label">
+                                        City<span class="colon">:</span>
+                                    </div>
+                                    <div id="city" class="col-md-6 col-12 data">
+                                        New-York
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12 label">
+                                        Age<span class="colon">:</span>
+                                    </div>
+                                    <div id="age" class="col-md-6 col-12 data">
+                                        21
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="col-lg-2"></div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-dictionary" role="tabpanel"
+                     aria-labelledby="v-pills-dictionary-tab">...
+                </div>
+                <div class="tab-pane fade" id="v-pills-favorites" role="tabpanel"
+                     aria-labelledby="v-pills-favorites-tab">...
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    ...
+                </div>
             </div>
         </div>
     </div>
