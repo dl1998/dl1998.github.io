@@ -22,67 +22,63 @@
 
 </head>
 <body>
-<nav id="navbar-block"></nav>
+<nav></nav>
 <script src="assets/js/navbar.js"></script>
 <script>
     $(".navbar-nav").find(".nav-item:nth-child(2) a").addClass("active");
 </script>
-<div class="container">
-    <div class="status-navigation">
-        <ul class="mx-auto mt-4 noselect">
-            <li><a class="active" href="#">?</a></li>
-            <li><a href="#">!</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li><a href="#">6</a></li>
-        </ul>
-    </div>
-    <div id="question-block">
-        <p class="text-center">Question: number 1?</p>
-        <div class="embed-responsive embed-responsive-16by9 mx-auto">
-            <img class="embed-responsive-item" src="https://cdn.lynda.com/course/158318/158318-636246768359669154-16x9.jpg">
-        </div>
-    </div>
-    <div id="answer-block" class="mt-3">
-        <div class="mx-auto">
-            <div class="custom-control custom-radio">
-                <input type="radio" name="customRadio" class="custom-control-input" id="customCheck1">
-                <label class="custom-control-label" for="customCheck1">Number 1</label>
-            </div>
-            <div class="custom-control custom-radio">
-                <input type="radio" name="customRadio" class="custom-control-input" id="customCheck2">
-                <label class="custom-control-label" for="customCheck2">Number 2</label>
-            </div>
-            <div class="custom-control custom-radio">
-                <input type="radio" name="customRadio" class="custom-control-input" id="customCheck3">
-                <label class="custom-control-label" for="customCheck3">Number 3</label>
-            </div>
-            <div class="custom-control custom-radio">
-                <input type="radio" name="customRadio" class="custom-control-input" id="customCheck4">
-                <label class="custom-control-label" for="customCheck4">Number 4</label>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container mt-3 mt-md-auto mb-2">
-    <div class="row p-0">
-        <div class="col-6 text-left">
-            <a class="btn btn-info p-2 text-white">Previous</a>
-        </div>
-        <div class="col-6 text-right">
-            <a class="btn btn-info p-2 text-white">Next</a>
-        </div>
-    </div>
-</div>
-<footer class="footer mt-auto">
+<main>
     <div class="container">
-        <span id="brand">DeepEdge</span>
-        <span class="float-right">
-            Learn all edges deeper
-            © 2018
-        </span>
+        <div class="status-navigation">
+            <ul class="mx-auto mt-4 noselect">
+                <li><a class="active" href="#">?</a></li>
+                <li><a href="#">!</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+            </ul>
+        </div>
+        <div id="question-block">
+            <p class="text-center">Question: number 1?</p>
+            <div class="embed-responsive embed-responsive-16by9 mx-auto">
+                <img class="embed-responsive-item"
+                     src="https://cdn.lynda.com/course/158318/158318-636246768359669154-16x9.jpg">
+            </div>
+        </div>
+        <div id="answer-block" class="mt-3">
+            <div class="mx-auto">
+                <div class="custom-control custom-radio">
+                    <input type="radio" name="customRadio" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Number 1</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input type="radio" name="customRadio" class="custom-control-input" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">Number 2</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input type="radio" name="customRadio" class="custom-control-input" id="customCheck3">
+                    <label class="custom-control-label" for="customCheck3">Number 3</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input type="radio" name="customRadio" class="custom-control-input" id="customCheck4">
+                    <label class="custom-control-label" for="customCheck4">Number 4</label>
+                </div>
+            </div>
+        </div>
     </div>
-</footer>
+    <div class="container mt-3 mt-md-auto mb-2">
+        <div class="row p-0">
+            <div class="col-6 text-left">
+                <a class="btn btn-info p-2 text-white">Previous</a>
+            </div>
+            <div class="col-6 text-right">
+                <a class="btn btn-info p-2 text-white">Next</a>
+            </div>
+        </div>
+    </div>
+</main>
+<footer></footer>
+<script src="assets/js/footer.js"></script>
 </body>
 </html>

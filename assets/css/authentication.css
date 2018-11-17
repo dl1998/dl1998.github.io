@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#authentication {
+    width: 50%;
+}
+
+@media (max-width: 991px) {
+    #authentication {
+        width: 75%;
+    }
+}

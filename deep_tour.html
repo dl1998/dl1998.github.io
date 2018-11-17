@@ -17,16 +17,17 @@
 
     <!-- Main style -->
     <link href="assets/css/main_style.css" rel="stylesheet">
+
     <!-- Deep Tour style -->
     <link href="assets/css/deep_tour_style.css" rel="stylesheet">
 </head>
 <body>
-<nav id="navbar-block"></nav>
+<nav></nav>
 <script src="assets/js/navbar.js"></script>
 <script>
     $(".navbar-nav").find(".nav-item:nth-child(1) a").addClass("active");
 </script>
-<div class="container-fluid p-0">
+<main class="container-fluid p-0">
     <div class="row px-0 mx-0">
         <div class="filter col-md-3 col-lg-2 p-2">
             <div id="accordion">
@@ -159,16 +160,9 @@
             </div>
         </div>
     </div>
-</div>
-<footer class="footer mt-auto">
-    <div class="container">
-        <span id="brand">DeepEdge</span>
-        <span class="float-right">
-            Learn all edges deeper
-            © 2018
-        </span>
-    </div>
-</footer>
+</main>
+<footer></footer>
+<script src="assets/js/footer.js"></script>
 <!-- DeepTour js handler -->
 <script src="assets/js/deep_tour.js"></script>
 </body>

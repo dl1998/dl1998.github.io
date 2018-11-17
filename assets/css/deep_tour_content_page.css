@@ -1,11 +1,13 @@
+main {
+    background-color: whitesmoke;
+}
+
 .page-header {
     height: 200px;
     background: #bdc3c7; /* fallback for old browsers */
     background: -webkit-repeating-radial-gradient(#2c3e50, #bdc3c7); /* Chrome 10-25, Safari 5.1-6 */
     background: radial-gradient(#16647a, #343a40);
 }
-
-/*#3d5568, #000000*/
 
 .page-header h1 {
     vertical-align: middle;
@@ -33,24 +35,20 @@
     background-color: whitesmoke;
 }
 
-.content {
-    background-color: whitesmoke;
-}
-
-.container img {
+#pills-overview img {
     width: 500px;
     height: 282px;
     border-radius: 10px;
 }
 
-#category-navigation #short-overview {
+#short-overview p {
     text-align: center;
-    font-size: 1.3em;
-    font-family: Brush Script Std, cursive, Papyrus, fantasy;
+    font-size: 1.3em !important;
+    font-family: Brush Script Std, cursive, Papyrus, fantasy !important;
     font-style: italic;
 }
 
-#category-navigation p {
+#myTabContent p {
     font-family: URW Gothic L, sans-serif;
     font-size: 1.1em;
     margin-bottom: 2px;
@@ -62,12 +60,6 @@
 
 #carouselMedia {
     width: 900px;
-    height: 506px;
-    display: flex;
-}
-
-.carousel-item img {
-    height: 100%;
 }
 
 #work-schedule {
@@ -85,10 +77,5 @@
 @media (max-width: 991px) {
     #carouselMedia {
         width: auto;
-        height: auto;
-    }
-
-    .carousel-item {
-        height: 100%;
     }
 }

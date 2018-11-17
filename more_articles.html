@@ -17,16 +17,18 @@
 
     <!-- Main style -->
     <link href="assets/css/main_style.css" rel="stylesheet">
+
     <!-- More Articles style -->
     <link href="assets/css/more_articles.css" rel="stylesheet">
+
 </head>
 <body>
-<nav id="navbar-block"></nav>
+<nav></nav>
 <script src="assets/js/navbar.js"></script>
 <script>
     $(".navbar-nav").find(".nav-item:nth-child(3) a").addClass("active");
 </script>
-<div class="container py-3">
+<main class="container py-3">
     <div class="card">
         <div class="card-header text-md-left text-center" onclick="location.href='more_article.html'">
             <div class="title">Verb</div>
@@ -52,15 +54,8 @@
             <span class="author float-right">@Author</span>
         </div>
     </div>
-</div>
-<footer class="footer mt-auto">
-    <div class="container">
-        <span id="brand">DeepEdge</span>
-        <span class="float-right">
-            Learn all edges deeper
-            © 2018
-        </span>
-    </div>
-</footer>
+</main>
+<footer></footer>
+<script src="assets/js/footer.js"></script>
 </body>
 </html>
