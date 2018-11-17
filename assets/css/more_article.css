@@ -27,9 +27,3 @@ p {
     font-size: 1.3em;
     font-family: URW Gothic L, sans-serif;
 }
-
-@media (max-width: 767px) {
-    .embed-responsive {
-        width: 100%;
-    }
-}
