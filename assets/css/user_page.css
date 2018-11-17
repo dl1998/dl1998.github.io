@@ -1,89 +1,10 @@
+<<<<<<< HEAD
 main .nav .nav-link {
     border-radius: 0 30px 30px 0;
+=======
+.container-fluid .nav .nav-link {
+    border-radius: 30px 30px 30px 30px;
+>>>>>>> parent of 5d1e2dd... Navbar Updated
     font-size: 1.3em;
     margin: 10px 0;
-}
-
-#v-pills-tab a {
-    color: #65737e;
-}
-
-#v-pills-tab a:hover:not(.active) {
-    color: rgb(56, 64, 75);
-}
-
-#v-pills-tab .show {
-    background-color: #65737e;
-}
-
-#v-pills-tab .active {
-    background-color: #65737e;
-    color: white;
-}
-
-#contact-row {
-    width: 75%;
-}
-
-.embed-responsive {
-    width: 150px;
-}
-
-#contact-row img {
-    border: 1px solid black;
-}
-
-#contact-data-block {
-    font-size: 1.6em;
-}
-
-#contact-data-block h2 {
-    font-size: 1.4em;
-    width: fit-content;
-    width: -moz-fit-content;
-}
-
-#username-block {
-    font-size: 1.2em;
-}
-
-.label {
-    text-align: right;
-    font-weight: bold;
-}
-
-@media (max-width: 767px) {
-    .embed-responsive {
-        width: 100px;
-    }
-
-    #contact-data-block {
-        font-size: 1.2em;
-    }
-
-    #contact-data-block h2 {
-        font-size: 1.4em;
-    }
-
-    #username-block {
-        font-size: 1.3em;
-    }
-
-    .label, .data {
-        text-align: center;
-    }
-
-    .data, #username-block {
-        margin-bottom: 10px;
-    }
-
-    .colon {
-        display: none;
-    }
-}
-
-@media (max-width: 575px) {
-    #contact-row {
-        width: 100%;
-    }
 }

@@ -22,6 +22,7 @@
     <link href="assets/css/user_page.css" rel="stylesheet">
 </head>
 <body>
+<<<<<<< HEAD
 <nav></nav>
 <script src="assets/js/navbar.js"></script>
 <main class="mt-3">
@@ -49,10 +50,61 @@
                     <i class="fa fa-cog d-sm-none"></i>
                     <span class="d-none d-sm-inline-block">Settings</span>
                 </a>
+=======
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">DE</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-2" id="navbarNavDropdown">
+            <ul class="navbar-nav text-center text-lg-left">
+                <li class="nav-item">
+                    <a class="nav-link" href="deep_tour.html">DeepTour<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lectures.html">Lectures<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="more.html">More<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FAQ<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <div class="w-100 my-3 my-lg-0">
+                <div class="float-none float-lg-right row">
+                    <button class="btn btn-outline-info col-12 col-lg-auto my-2 my-lg-0 mx-lg-1" type="submit"
+                            id="btn_log_in"
+                            onclick="location.href='log_in.html';">
+                        Log In
+                    </button>
+                    <button class="btn btn-outline-info col-12 col-lg-auto my-2 my-lg-0 mx-lg-1" type="submit"
+                            id="btn_sign_up"
+                            onclick="location.href='sign_up.html'">
+                        Sign Up
+                    </button>
+                </div>
             </div>
         </div>
-        <div class="col-lg-10 col-sm-9 col-10 mt-3 pl-0 pl-sm-3">
+    </div>
+</nav>
+<div class="container-fluid pl-0 mt-3">
+    <div class="row p-0">
+        <div class="col-lg-2 col-3">
+            <div class="nav flex-column nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+                <a class="nav-link" id="v-pills-dictionary-tab" data-toggle="pill" href="#v-pills-dictionary" role="tab" aria-controls="v-pills-dictionary" aria-selected="true">Dictionary</a>
+                <a class="nav-link" id="v-pills-favorites-tab" data-toggle="pill" href="#v-pills-favorites" role="tab" aria-controls="v-pills-favorites" aria-selected="false">Favorites</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+>>>>>>> parent of 5d1e2dd... Navbar Updated
+            </div>
+        </div>
+        <div class="col-lg-10 col-9 mt-3">
             <div class="tab-content" id="v-pills-tabContent">
+<<<<<<< HEAD
                 <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel"
                      aria-labelledby="v-pills-profile-tab">
                     <div class="container px-0">
@@ -129,6 +181,12 @@
                 <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
                     ...
                 </div>
+=======
+                <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-dictionary" role="tabpanel" aria-labelledby="v-pills-dictionary-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-favorites" role="tabpanel" aria-labelledby="v-pills-favorites-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+>>>>>>> parent of 5d1e2dd... Navbar Updated
             </div>
         </div>
     </div>
