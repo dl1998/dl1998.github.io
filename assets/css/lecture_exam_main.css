@@ -1,17 +1,22 @@
 .status-navigation ul {
+    display: block;
+    height: 40px;
+    width: fit-content;
+    width: -moz-fit-content;
     list-style-type: none;
-    display: table;
     padding: 0px;
 }
 
 .status-navigation li {
-    float: left;
     width: 40px;
     height: 40px;
-    display: table-cell;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     vertical-align: middle;
-    background-color: #9092ce;
-    border: 2px solid #bddfde;
+    background-color: #1a1a1a;
+    border: 2px solid #1F9BCF;
     border-right-width: 0;
     text-align: center;
     font-size: 1.3em;
@@ -23,10 +28,8 @@
 }
 
 .status-navigation a {
-    width: 40px;
-    height: 40px;
     text-decoration: none;
-    color: white;
+    color: #1F9BCF;
 }
 
 .status-navigation a:visited {
@@ -66,8 +69,8 @@ label {
     padding: 0;
 }
 
-.btn {
-    width: 80px;
+main .btn {
+    width: 85px;
 }
 
 @media (max-width: 991px) {

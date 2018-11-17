@@ -6,7 +6,7 @@ main {
     height: 200px;
     background: #bdc3c7; /* fallback for old browsers */
     background: -webkit-repeating-radial-gradient(#2c3e50, #bdc3c7); /* Chrome 10-25, Safari 5.1-6 */
-    background: radial-gradient(#16647a, #343a40);
+    background: radial-gradient(#16647a, #1a1a1a);
 }
 
 .page-header h1 {
@@ -22,12 +22,8 @@ main {
     color: rgba(255, 255, 255, .75);
 }
 
-#pills-tab .show {
-    background-color: #65737e;
-}
-
 #pills-tab .active {
-    background-color: #65737e;
+    background-color: #343a40;
     color: white;
 }
 
@@ -51,6 +47,7 @@ main {
 #myTabContent p {
     font-family: URW Gothic L, sans-serif;
     font-size: 1.1em;
+    color: #1a1a1a;
     margin-bottom: 2px;
 }
 

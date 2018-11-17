@@ -12,22 +12,28 @@
 }
 
 .card-header:hover .title {
-    color: #1ea3a9;
+    color: #919aa1 !important;
+}
+
+.title, .sub-title {
+    font-weight: bold !important;
 }
 
 .title {
     font-size: 1.8em;
-    font-weight: bold;
     letter-spacing: 0.1em;
 }
 
+.sub-title {
+    color: #6c757d;
+}
+
 .card-header:hover .sub-title {
-    color: #969fa7 !important;
+    color: #bdc3c7 !important;
 }
 
 .sub-title {
     font-size: 1.2em;
-    font-weight: bold;
 }
 
 .embed-responsive {
